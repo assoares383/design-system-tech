@@ -30,6 +30,13 @@ const config: StorybookConfig = {
 
   typescript: {
     reactDocgen: "react-docgen-typescript"
+  },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/design-system-tech/'
+    }
+
+    return config
   }
 };
 export default config;
