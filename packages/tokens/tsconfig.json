@@ -1,0 +1,4 @@
+{
+  "extends": "@asstech-ui/ts-config/base.json",
+  "include": ["src"],
+}
