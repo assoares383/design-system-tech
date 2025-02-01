@@ -23,7 +23,7 @@ jobs:
 
             - run: npm run build
               env:
-                TURBO_TOKEN: YPVIFV4ld25Jix7LBr8s8ac1
+                TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
                 TURBO_TEAM: alexandre-de-souza-soares-projects
 
             - name: Deploy storybook
