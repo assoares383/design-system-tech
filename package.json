@@ -1,0 +1,48 @@
+{
+  "name": "@asstech-ui/docs",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "dependencies": {
+    "@asstech-ui/eslint-config": "*",
+    "@asstech-ui/react": "*",
+    "@asstech-ui/tokens": "*",
+    "@asstech-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^8.5.2",
+    "next": "14.2.23",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.4",
+    "@storybook/addon-essentials": "^8.5.2",
+    "@storybook/addon-interactions": "^8.5.2",
+    "@storybook/addon-mdx-gfm": "^8.5.2",
+    "@storybook/addon-onboarding": "^8.5.2",
+    "@storybook/blocks": "^8.5.2",
+    "@storybook/react": "^8.5.2",
+    "@storybook/react-vite": "^8.5.2",
+    "@storybook/storybook-deployer": "^2.8.16",
+    "@storybook/test": "^8.5.2",
+    "@storybook/theming": "^8.5.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.23",
+    "eslint-plugin-storybook": "^0.11.2",
+    "postcss": "^8",
+    "storybook": "^8.5.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "vite": "^6.0.11"
+  }
+}
